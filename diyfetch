@@ -1,35 +1,23 @@
 #!/bin/sh
 
-# Setup =======================================================================
-
-TERM_SIZE=$(stty size)
-TERM_HEIGHT=${TERM_SIZE% *}
-TERM_WIDTH=${TERM_SIZE#* }
-
-PROMPT_HEIGHT=3 #TODO
+#TODO
 
 # Info ------------------------------------------------------------------------
 
 #TODO
 
+#TODO
 COLOR=4
-USERNAME=${USER}
-HOSTNAME=$(hostname)
-OS=$(lsb_release -sd | sed -e 's/"//g')
-KERNEL=$(uname -sr)
-UPTIME=$(uptime -p | sed -e 's/up //')
-SHELL=$(basename "${SHELL}")
-WM='<your_wm>'
-TERMINAL='<your_terminal>'
 
-INFO=$(gum style "[1;38;5;${COLOR}m${USERNAME}[0m@[1;38;5;${COLOR}m${HOSTNAME}[0m
-------------------
-[1;38;5;${COLOR}mOS:        [0m${OS}[0m
-[1;38;5;${COLOR}mKERNEL:    [0m${KERNEL}[0m
-[1;38;5;${COLOR}mUPTIME:    [0m${UPTIME}[0m
-[1;38;5;${COLOR}mSHELL:     [0m${SHELL}[0m
-[1;38;5;${COLOR}mWM:        [0m${WM}[0m
-[1;38;5;${COLOR}mTERMINAL:  [0m${TERMINAL}[0m
+INFO=$(gum style "[1;38;5;${COLOR}m${USER}[0m@[1;38;5;${COLOR}m$(hostname)[0m
+----------------
+[1;38;5;${COLOR}mOS:        [0m$(lsb_release -sd | sed -e 's/"//g')
+[1;38;5;${COLOR}mKERNEL:    [0m$(uname -sr)
+[1;38;5;${COLOR}mUPTIME:    [0m$(uptime -p | sed -e 's/up //')
+[1;38;5;${COLOR}mSHELL:     [0m$(basename "${SHELL}")
+[1;38;5;${COLOR}mDE:        [0m<your_de>
+[1;38;5;${COLOR}mWM:        [0m<your_wm>
+[1;38;5;${COLOR}mTERMINAL:  [0m<your_terminal>
 ")
 
 # Art -------------------------------------------------------------------------
@@ -53,7 +41,14 @@ COLOR=$(gum style '[0;30m███[0;31m███[0;32m███[0;33m██
 [0;1;90m███[0;1;91m███[0;1;92m███[0;1;93m███[0;1;94m███[0;1;95m███[0;1;96m███[0;1;97m███[0m
 ')
 
-# Layout ======================================================================
+# Layout ----------------------------------------------------------------------
+
+TERM_SIZE="45 170" # $(stty size)
+TERM_HEIGHT=${TERM_SIZE% *}
+TERM_WIDTH=${TERM_SIZE#* }
+
+#TODO
+PROMPT_HEIGHT=3
 
 try_print() {
 	mono_string=$(printf '%b' "$1" | sed -e 's/\x1B\[[0-9;]*[JKmsu]//g')
