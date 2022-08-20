@@ -1,5 +1,11 @@
 #!/bin/sh
 
+#  ____ _____   ____      _       _
+# |  _ \_ _\ \ / / _| ___| |_ ___| |__
+# | | | | | \ V / |_ / _ \ __/ __| '_ \
+# | |_| | |  | ||  _|  __/ || (__| | | |
+# |____/___| |_||_|  \___|\__\___|_| |_|
+#
 # About:
 #   DIYfetch it the shell script template for writing fetch tool
 #   utilizing `gum join` command (https://github.com/charmbracelet/gum#join).
@@ -10,10 +16,6 @@
 # Note:
 #   When copy ANSI string from random script make sure to replace "\033" and "\e" to ""
 #   or wrap it in `$(printf '%b' "<ansi_string>")`.
-#
-# Some helpful resources:
-# - https://www.shellcheck.net
-# - https://github.com/dylanaraps/pure-sh-bible
 #
 # URL: https://github.com/info-mono/diyfetch
 
@@ -45,7 +47,7 @@ art=$(gum style '    [34m___[0m
 [33m_[34m/\ [0m__)[34m/[33m_[34m)[0m
 [33m\/[34m-____[33m\/[0m')
 
-# TODO make color strip gen tool
+# You can generate colorstrip using https://github.com/info-mono/colorstrip
 color=$(gum style '[0;30m███[0;31m███[0;32m███[0;33m███[0;34m███[0;35m███[0;36m███[0;37m███[0m
 [0;1;90m███[0;1;91m███[0;1;92m███[0;1;93m███[0;1;94m███[0;1;95m███[0;1;96m███[0;1;97m███[0m')
 
@@ -54,10 +56,9 @@ color=$(gum style '[0;30m███[0;31m███[0;32m███[0;33m██
 
 # The code in this section is to display the fetch adaptively to the terminal's size.
 # If you just want a static fetch display, you can just use something like this:
-# ```
-# group_info_color=$(gum join --vertical "${info}" '' "${color}")
-# gum join --horizontal --align center '  ' "${art}" '  ' "${group_info_color}"
-# ```
+#
+#   group_info_color=$(gum join --vertical "${info}" '' "${color}")
+#   gum join --horizontal --align center '  ' "${art}" '  ' "${group_info_color}"
 
 terminal_size=$(stty size)
 terminal_height=${terminal_size% *}
@@ -95,6 +96,5 @@ print_test "$(gum join --vertical --align center "${art}" '' "${info}")"
 print_test "${group_art_info}"
 print_test "${group_info_color}"
 print_test "${info}"
-
 
 exit 1
