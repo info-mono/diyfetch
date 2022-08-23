@@ -1,6 +1,6 @@
 <h1 align="center">DIYfetch</h1>
 <p align="center">The ultimate fetch tool template</p>
-<p align="center"><a href="https://github.com/info-mono/diyfetch"><img src="https://user-images.githubusercontent.com/43980777/185734792-4ad807a9-e5b9-4ede-9536-52a849cfaeee.png"></a></p>
+<p align="center"><a href="https://github.com/info-mono/diyfetch"><img src=""></a></p>
 <p align="center">
   <a href="https://github.com/info-mono/diyfetch/blob/main/LICENSE"><img src="https://img.shields.io/github/license/info-mono/diyfetch?labelColor=383838&color=585858&style=for-the-badge" alt="License: GPL-3.0"></a>
   <a href="https://gist.github.com/NNBnh/9ef453aba3efce26046e0d3119dab5a7#development-completed"><img src="https://img.shields.io/badge/development-completed-%23585858.svg?labelColor=383838&style=for-the-badge&logoColor=FFFFFF" alt="Development completed"></a>
@@ -8,15 +8,33 @@
 
 ## 💡 About
 
-#TODO
+**DIYfetch** it the shell script template for writing adaptive fetch tool utilizing [gum's join command](https://github.com/charmbracelet/gum#join).
 
 ## 🚀 Setup
 
-### 📥 Installation
+### 📥 1. Download the [`diyfetch` file](https://github.com/info-mono/diyfetch/blob/main/diyfetch):
 
-#TODO
+```sh
+curl https://raw.githubusercontent.com/info-mono/diyfetch/main/diyfetch > ~/.local/bin/diyfetch
+chmod +x ~/.local/bin/diyfetch
+```
 
-### ⚙️ Configuration
+> **Note** feel free to change the file name to what ever you want.
+
+### ⚙️ 2. Customize
+
+Open the fetch script with your favorite editor then add, delete and change whatever you prefer.
+The script contain detailed guide to customize it.
+
+### ⌨️ 3. Usage
+
+Finally, run the fetch script in the terminal:
+
+```sh
+diyfetch
+```
+
+## 🖼️ Showcases
 
 #TODO
 
