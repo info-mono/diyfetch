@@ -1,6 +1,6 @@
 <h1 align="center">DIYfetch</h1>
 <p align="center">The ultimate fetch tool template</p>
-<p align="center"><a href="https://github.com/info-mono/diyfetch"><img src=""></a></p>
+<p align="center"><a href="https://github.com/info-mono/diyfetch"><img src="#TODO"></a></p>
 <p align="center">
   <a href="https://github.com/info-mono/diyfetch/blob/main/LICENSE"><img src="https://img.shields.io/github/license/info-mono/diyfetch?labelColor=383838&color=585858&style=for-the-badge" alt="License: GPL-3.0"></a>
   <a href="https://gist.github.com/NNBnh/9ef453aba3efce26046e0d3119dab5a7#development-completed"><img src="https://img.shields.io/badge/development-completed-%23585858.svg?labelColor=383838&style=for-the-badge&logoColor=FFFFFF" alt="Development completed"></a>
@@ -12,7 +12,9 @@
 
 ## 🚀 Setup
 
-### 📥 1. Download the [`diyfetch` file](https://github.com/info-mono/diyfetch/blob/main/diyfetch):
+### 📥 Download
+
+Download the [`diyfetch`](https://github.com/info-mono/diyfetch/blob/main/diyfetch)  file:
 
 ```sh
 curl https://raw.githubusercontent.com/info-mono/diyfetch/main/diyfetch > ~/.local/bin/diyfetch
@@ -21,12 +23,12 @@ chmod +x ~/.local/bin/diyfetch
 
 > **Note** feel free to change the file name to what ever you want.
 
-### ⚙️ 2. Customize
+### ⚙️ Customize
 
 Open the fetch script with your favorite editor then add, delete and change whatever you prefer.
 The script contain detailed guide to customize it.
 
-### ⌨️ 3. Usage
+### ⌨️ Usage
 
 Finally, run the fetch script in the terminal:
 
