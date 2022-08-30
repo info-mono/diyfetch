@@ -20,7 +20,7 @@
 # URL: https://github.com/info-mono/diyfetch
 
 
-# Prepare -----------------------------------------------------------------------------------------
+# Prepare ------------------------------------------------------------------------------------------
 
 # You can lookup the color codes on https://wikipedia.org/wiki/ANSI_escape_code#8-bit
 main_color=4
@@ -52,7 +52,7 @@ color=$(gum style '[0;30m███[0;31m███[0;32m███[0;33m██
 [0;1;90m███[0;1;91m███[0;1;92m███[0;1;93m███[0;1;94m███[0;1;95m███[0;1;96m███[0;1;97m███[0m')
 
 
-# Display -----------------------------------------------------------------------------------------
+# Display ------------------------------------------------------------------------------------------
 
 # The code in this section is to display the fetch adaptively to the terminal's size.
 # If you just want a static fetch display, you can just use something like this:
