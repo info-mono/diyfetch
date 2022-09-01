@@ -28,11 +28,11 @@ main_color=4
 # You can add some eye candy icons with Emoji of use Nerd Fonts (https://www.nerdfonts.com).
 info=$(gum style "[1;38;5;${main_color}m${USER}[0m@[1;38;5;${main_color}m$(hostname)[0m
 ----------------
-[1;38;5;${main_color}mOS:        [0m$(lsb_release -sd | tr -d '"')
+[1;38;5;${main_color}mOS:        [0m<your_os>
 [1;38;5;${main_color}mKERNEL:    [0m$(uname -sr)
 [1;38;5;${main_color}mUPTIME:    [0m$(uptime -p | cut -c 4-)
 [1;38;5;${main_color}mSHELL:     [0m$(basename "${SHELL}")
-[1;38;5;${main_color}mEDITOR:    [0m${EDITOR:-<your_editor>}
+[1;38;5;${main_color}mEDITOR:    [0m$(basename "${EDITOR:-<your_editor>}")
 [1;38;5;${main_color}mDE:        [0m<your_de>
 [1;38;5;${main_color}mWM:        [0m<your_wm>
 [1;38;5;${main_color}mTERMINAL:  [0m<your_terminal>")

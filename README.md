@@ -8,13 +8,13 @@
 
 ## 💡 About
 
-**DIYfetch** it the shell script template for writing adaptive fetch tool utilizing [gum's join command](https://github.com/charmbracelet/gum#join).
+**DIYfetch** it the shell script template for writing adaptive fetch tool utilizing [Gum's join command](https://github.com/charmbracelet/gum#join).
 
 ## 🚀 Setup
 
 ### 📥 Download
 
-Download the [`diyfetch`](https://github.com/info-mono/diyfetch/blob/main/diyfetch)  file:
+Download the [`diyfetch`](https://github.com/info-mono/diyfetch/blob/main/diyfetch) file:
 
 ```sh
 curl https://raw.githubusercontent.com/info-mono/diyfetch/main/diyfetch > ~/.local/bin/diyfetch
