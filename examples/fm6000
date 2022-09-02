@@ -41,6 +41,7 @@ print_test() {
 	exit 0
 }
 
+
 # Default layout
 print_test "$(gum join --horizontal --align center "${art}" "${info}")"
 

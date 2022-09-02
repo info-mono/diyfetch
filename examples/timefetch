@@ -4,7 +4,7 @@
 
 main_color=9
 
-time=$(gum style --bold --italic "$(date +%X | figlet -f slant)")
+clock=$(gum style --bold --italic --foreground 14 "$(date +%X | tr ':' ' ' | figlet -f slant)")
 
 calendar=$(gum style --border thick --border-foreground "${main_color}" --padding '0 2' "
 $(cal --color=always)")
@@ -34,11 +34,11 @@ print_test() {
 
 
 # Default layout
-group_time_info=$(gum join --vertical --align center "${time}" "${info}")
-print_test "$(gum join --horizontal --align center "${group_time_info}" '  ' "${calendar}")"
+group_clock_info=$(gum join --vertical --align center "${clock}" "${info}")
+print_test "$(gum join --horizontal --align center "${group_clock_info}" '  ' "${calendar}")"
 
 # Other layout
-print_test "${group_time_info}"
+print_test "${group_clock_info}"
 print_test "${info}"
 
 exit 1

@@ -45,6 +45,7 @@ print_test() {
 	exit 0
 }
 
+
 # Default layout
 group_info_color=$(gum join --vertical --align center "${info}" "${color}")
 print_test "$(gum join --horizontal --align center '  ' "${art}" '  ' "${group_info_color}")"
