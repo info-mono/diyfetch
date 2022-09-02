@@ -43,7 +43,7 @@ print_test() {
 
 
 # Default layout
-print_test "$(gum join --horizontal --align center "${art}" "${info}")"
+print_test "$(gum join --horizontal "${art}" "${info}")"
 
 # Other layout
 print_test "${info}"
