@@ -65,8 +65,8 @@ This example is inspired by [Idlifetch from Neofetch themes](https://github.com/
 This example is inspired by [Ozozfetch from Neofetch themes](https://github.com/Chick2D/neofetch-themes#ozozfetch).
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/43980777/188281315-6b3d6deb-0c14-48b7-bbfb-285435f1af57.png#gh-light-mode-only">
-  <img src="https://user-images.githubusercontent.com/43980777/188281314-1be0d9f8-dd44-4042-bf2e-3dcf62de1aa3.png#gh-dark-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188281825-be3b5c2c-5abf-4146-be14-f450e6dedf5e.png#gh-light-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188281823-5eb4a65e-8abe-4b46-b49d-23017fdff650.png#gh-dark-mode-only">
 </p>
 
 ### [Fm6000](examples/fm6000)
@@ -74,18 +74,19 @@ This example is inspired by [Ozozfetch from Neofetch themes](https://github.com/
 This example is inspired by [Fetch-master 6000](https://github.com/anhsirk0/fetch-master-6000).
 
 <p align="center">
-  <img src="#TODO#gh-light-mode-only">
-  <img src="#TODO#gh-dark-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188281315-6b3d6deb-0c14-48b7-bbfb-285435f1af57.png#gh-light-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188281314-1be0d9f8-dd44-4042-bf2e-3dcf62de1aa3.png#gh-dark-mode-only">
 </p>
 
 ### [Laundryfetch](examples/laundryfetch)
 
-A tiny fetch I make to celebrate my No.1 victory at the local game jam
-(I buy a smart washing machine for mommy with the prize money).
+A tiny fetch I make to celebrate my No.1 victory at the local game jam.
+
+> I buy a smart washing machine for mommy with the prize money.
 
 <p align="center">
-  <img src="#TODO#gh-light-mode-only">
-  <img src="#TODO#gh-dark-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188282042-ad31c069-af30-4e32-8e08-5c236f8d5f4e.png#gh-light-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188282044-16e7e66f-4bc1-4986-884d-fa0c6b41dc11.png#gh-dark-mode-only">
 </p>
 
 ### [Timefetch](examples/timefetch)
@@ -113,7 +114,7 @@ with [Wego's ansi arts](https://github.com/schachmat/wego).
 
 ### [Pokefetch](examples/pokefetch)
 
-This example utilize [The RESTful Pokémon API](https://pokeapi.co)
+Poke~~dex~~ fetch! This example utilize [The RESTful Pokémon API](https://pokeapi.co)
 and [Pokemon colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts).
 
 <p align="center">
