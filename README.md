@@ -56,8 +56,8 @@ This example is inspired by [Insert Name from Neofetch themes](https://github.co
 This example is inspired by [Idlifetch from Neofetch themes](https://github.com/Chick2D/neofetch-themes#idlifetch).
 
 <p align="center">
-  <img src="#TODO#gh-light-mode-only">
-  <img src="#TODO#gh-dark-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188280960-e312ba23-5a78-43e3-8c66-ccbf57fc03a8.png#gh-light-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188280962-15f1f512-9fbc-437f-8fa2-c618c8ff46ae.png#gh-dark-mode-only">
 </p>
 
 ### [Ozozfetch](examples/ozozfetch)
@@ -65,8 +65,8 @@ This example is inspired by [Idlifetch from Neofetch themes](https://github.com/
 This example is inspired by [Ozozfetch from Neofetch themes](https://github.com/Chick2D/neofetch-themes#ozozfetch).
 
 <p align="center">
-  <img src="#TODO#gh-light-mode-only">
-  <img src="#TODO#gh-dark-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188281315-6b3d6deb-0c14-48b7-bbfb-285435f1af57.png#gh-light-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188281314-1be0d9f8-dd44-4042-bf2e-3dcf62de1aa3.png#gh-dark-mode-only">
 </p>
 
 ### [Fm6000](examples/fm6000)
