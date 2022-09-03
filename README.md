@@ -47,8 +47,8 @@ Here are some examples, you can find their script in [`examples/`](examples).
 This example is inspired by [Insert Name from Neofetch themes](https://github.com/Chick2D/neofetch-themes#insert-name).
 
 <p align="center">
-  <img src="#TODO#gh-light-mode-only">
-  <img src="#TODO#gh-dark-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188280399-86d7b41f-d6f7-4204-b72c-cc7e7cc7327c.png#gh-light-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188280410-335dd584-ffba-4aa3-a924-c92a6369e457.png#gh-dark-mode-only">
 </p>
 
 ### [Idlifetch](examples/idlifetch)
