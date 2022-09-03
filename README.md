@@ -1,6 +1,7 @@
-<h1 align="center">DIYfetch</h1>
-<p align="center">The ultimate fetch tool template</p>
-<p align="center"><a href="https://github.com/info-mono/diyfetch"><img src="#TODO"></a></p>
+<p align="center"><a href="https://github.com/info-mono/diyfetch">
+  <img src="https://user-images.githubusercontent.com/43980777/188279024-8669d85b-4df9-4e48-bec8-969c42a12456.png#gh-light-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188278675-7adca8da-83d5-4e9c-b53e-fdb337a9da11.png#gh-dark-mode-only">
+</a></p>
 <p align="center">
   <a href="https://github.com/info-mono/diyfetch/blob/main/LICENSE"><img src="https://img.shields.io/github/license/info-mono/diyfetch?labelColor=383838&color=585858&style=for-the-badge" alt="License: GPL-3.0"></a>
   <a href="https://gist.github.com/NNBnh/9ef453aba3efce26046e0d3119dab5a7#development-completed"><img src="https://img.shields.io/badge/development-completed-%23585858.svg?labelColor=383838&style=for-the-badge&logoColor=FFFFFF" alt="Development completed"></a>
