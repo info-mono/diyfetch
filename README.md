@@ -53,6 +53,12 @@ This example is inspired by [Idlifetch from Neofetch themes](https://github.com/
 
 <img align="center" src="#TODO">
 
+### [Ozozfetch](examples/ozozfetch)
+
+This example is inspired by [Ozozfetch from Neofetch themes](https://github.com/Chick2D/neofetch-themes#ozozfetch).
+
+<img align="center" src="#TODO">
+
 ### [Fm6000](examples/fm6000)
 
 This example is inspired by [Fetch-master 6000](https://github.com/anhsirk0/fetch-master-6000).

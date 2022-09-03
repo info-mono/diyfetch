@@ -2,7 +2,7 @@
 
 # Prepare ------------------------------------------------------------------------------------------
 
-main_color=4
+main_color=11
 
 info=$(gum style --border normal \
 " [38;5;${main_color}m [0m  ${USER}@$(hostname)
