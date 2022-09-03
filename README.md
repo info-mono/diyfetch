@@ -8,7 +8,8 @@
 
 ## 💡 About
 
-**DIYfetch** it the shell script template for writing adaptive fetch tool utilizing [Gum's join command](https://github.com/charmbracelet/gum#join).
+**DIYfetch** it the shell script template for writing adaptive fetch tool utilizing
+[Gum's join command](https://github.com/charmbracelet/gum#join).
 
 ## 🚀 Setup
 
@@ -38,7 +39,58 @@ diyfetch
 
 ## 🖼️ Showcases
 
-#TODO
+Here are some examples, you can find their script in [`examples/`](examples).
+
+### [Insert Name](examples/insertname)
+
+This example is inspired by [Insert Name from Neofetch themes](https://github.com/Chick2D/neofetch-themes#insert-name).
+
+<img align="center" src="#TODO">
+
+### [Idlifetch](examples/idlifetch)
+
+This example is inspired by [Idlifetch from Neofetch themes](https://github.com/Chick2D/neofetch-themes#idlifetch).
+
+<img align="center" src="#TODO">
+
+### [Fm6000](examples/fm6000)
+
+This example is inspired by [Fetch-master 6000](https://github.com/anhsirk0/fetch-master-6000).
+
+<img align="center" src="#TODO">
+
+### [Laundryfetch](examples/laundryfetch)
+
+A tiny fetch I make to celebrate my No.1 victory at the local game jam
+(I buy a smart washing machine for mommy with the prize money).
+
+<img align="center" src="#TODO">
+
+### [Timefetch](examples/timefetch)
+
+Why stop at system informations. You can fetch a bunch of time related information as well!
+
+<img align="center" src="#TODO">
+
+> **Note** Requirements: [`figlet`](https://www.figlet.org).
+
+### [Weatherfetch](examples/weatherfetch)
+
+This example utilize [`wttr.in`'s API](https://github.com/chubin/wttr.in#json-output)
+with [Wego's ansi arts](https://github.com/schachmat/wego).
+
+<img align="center" src="#TODO">
+
+> **Note** Requirements: [`jq`](https://stedolan.github.io/jq).
+
+### [Pokefetch](examples/pokefetch)
+
+This example utilize [The RESTful Pokémon API](https://pokeapi.co)
+and [Pokemon colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts).
+
+<img align="center" src="#TODO">
+
+> **Note** Requirements: [`jq`](https://stedolan.github.io/jq).
 
 ## 💌 Credits
 

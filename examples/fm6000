@@ -10,6 +10,7 @@ info=$(gum style --border rounded --border-foreground 6 --padding '1 2' \
 [1;38;5;5mUPTIME    [0m$(uptime -p | cut -c 4-)
 [1;38;5;6mPACKAGES  [0m<your_packages>")
 
+# You can get other art on https://github.com/anhsirk0/fetch-master-6000/tree/master/ascii_arts
 art=$(gum style --foreground 6 '    დოოოოოდ
     |     |
     |     |  ╭
