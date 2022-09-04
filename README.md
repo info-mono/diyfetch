@@ -114,12 +114,14 @@ with [Wego's ansi arts](https://github.com/schachmat/wego).
 
 ### [Pokefetch](examples/pokefetch)
 
-Poke~~dex~~ fetch! This example utilize [The RESTful Pokémon API](https://pokeapi.co)
+Poke~~dex~~ fetch! This example utilize [PokeAPI](https://pokeapi.co)
 and [Pokemon colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/43980777/188299394-9e139cf7-2b4f-4f93-961e-759b265b883e.png#gh-light-mode-only">
   <img src="https://user-images.githubusercontent.com/43980777/188299392-4d10a8e9-ae9f-4fb6-8146-0f77d06c3c2f.png#gh-dark-mode-only">
+  <br><br>
+  <a href="https://asciinema.org/a/518810" target="_blank"><img align="center" src="https://user-images.githubusercontent.com/43980777/188304706-c50b93b4-1b88-4d7b-bd27-e0a749b791a9.gif"></a>
 </p>
 
 > **Note** Requirements: [`jq`](https://stedolan.github.io/jq).
