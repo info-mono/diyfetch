@@ -94,8 +94,8 @@ A tiny fetch I make to celebrate my No.1 victory at the local game jam.
 Why stop at system informations. You can fetch a bunch of time related information as well!
 
 <p align="center">
-  <img src="#TODO#gh-light-mode-only">
-  <img src="#TODO#gh-dark-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188299096-9e7e46d7-d969-43d8-84cb-8a881d10909c.png#gh-light-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188299095-f1183747-2210-412a-952f-8d3e4109b0c6.png#gh-dark-mode-only">
 </p>
 
 > **Note** Requirements: [`figlet`](https://www.figlet.org).
@@ -118,8 +118,8 @@ Poke~~dex~~ fetch! This example utilize [The RESTful Pokémon API](https://pokea
 and [Pokemon colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts).
 
 <p align="center">
-  <img src="#TODO#gh-light-mode-only">
-  <img src="#TODO#gh-dark-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188299394-9e139cf7-2b4f-4f93-961e-759b265b883e.png#gh-light-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188299392-4d10a8e9-ae9f-4fb6-8146-0f77d06c3c2f.png#gh-dark-mode-only">
 </p>
 
 > **Note** Requirements: [`jq`](https://stedolan.github.io/jq).
