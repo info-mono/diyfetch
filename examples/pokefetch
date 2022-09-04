@@ -12,7 +12,7 @@ name=$(echo "${data_species}" | jq --raw-output '.names | .[] | select(.language
 category=$(echo "${data_species}" | jq --raw-output '.genera | .[] | select(.language.name == "en").genus')
 title="▐[1;7m No.$(printf '%03d' "${id}") [0m▌ [1m${name} - ${category}[0m"
 
-for type in $(echo "${data_pokemon}" | jq --raw-output .types[0].type.name | tr '[:lower:]' '[:upper:]'); do
+for type in $(echo "${data_pokemon}" | jq --raw-output '.types | .[].type.name' | tr '[:lower:]' '[:upper:]'); do
 	case "${type}" in
 		NORMAL)   color=7  ;;
 		FIRE)     color=9  ;;

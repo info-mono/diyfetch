@@ -5,20 +5,20 @@
 main_color=11
 
 info=$(gum style --border normal \
-" [38;5;${main_color}m [0m  ${USER}@$(hostname)
+" [38;5;${main_color}m [0m ${USER}@$(hostname)
 ───────────────────────────────────
- [38;5;${main_color}m [0m  <your_model>
- [38;5;${main_color}m [0m  <your_cpu>
- [38;5;${main_color}m﬙ [0m  <your_gpu>
- [38;5;${main_color}m [0m  <your_disk>
- [38;5;${main_color}m塞[0m  <your_memory>
- [38;5;${main_color}m神[0m  $(uptime -p | cut -c 4-)
+ [38;5;${main_color}m [0m <your_model>
+ [38;5;${main_color}m [0m <your_cpu>
+ [38;5;${main_color}m﬙ [0m <your_gpu>
+ [38;5;${main_color}m [0m <your_disk>
+ [38;5;${main_color}m塞[0m <your_memory>
+ [38;5;${main_color}m神[0m $(uptime -p | cut -c 4-)
 ───────────────────────────────────
- [38;5;${main_color}m [0m  <your_os>
- [38;5;${main_color}m [0m  <your_wm>
- [38;5;${main_color}m [0m  <your_packages>
- [38;5;${main_color}m [0m  <your_terminal>
- [38;5;${main_color}m [0m  $(basename "${SHELL}")")
+ [38;5;${main_color}m [0m <your_os>
+ [38;5;${main_color}m [0m <your_wm>
+ [38;5;${main_color}m [0m <your_packages>
+ [38;5;${main_color}m [0m <your_terminal>
+ [38;5;${main_color}m [0m $(basename "${SHELL}")")
 
 art=$(gum style '[34m        #####[0m
 [34m       #######[0m

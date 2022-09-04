@@ -98,7 +98,8 @@ Why stop at system informations. You can fetch a bunch of time related informati
   <img src="https://user-images.githubusercontent.com/43980777/188299095-f1183747-2210-412a-952f-8d3e4109b0c6.png#gh-dark-mode-only">
 </p>
 
-> **Note** Requirements: [`figlet`](https://www.figlet.org).
+> **Note** <br>
+> Requirements: [`figlet`](https://www.figlet.org).
 
 ### [Weatherfetch](examples/weatherfetch)
 
@@ -110,7 +111,8 @@ with [Wego's ansi arts](https://github.com/schachmat/wego).
   <img src="#TODO#gh-dark-mode-only">
 </p>
 
-> **Note** Requirements: [`jq`](https://stedolan.github.io/jq).
+> **Note** <br>
+> Requirements: [`jq`](https://stedolan.github.io/jq).
 
 ### [Pokefetch](examples/pokefetch)
 
@@ -124,7 +126,8 @@ and [Pokemon colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts)
   <a href="https://asciinema.org/a/518810" target="_blank"><img align="center" src="https://user-images.githubusercontent.com/43980777/188304706-c50b93b4-1b88-4d7b-bd27-e0a749b791a9.gif"></a>
 </p>
 
-> **Note** Requirements: [`jq`](https://stedolan.github.io/jq).
+> **Note** <br>
+> Requirements: [`jq`](https://stedolan.github.io/jq).
 
 ## 💌 Credits
 
