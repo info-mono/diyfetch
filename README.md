@@ -107,8 +107,8 @@ This example utilize [`wttr.in`'s API](https://github.com/chubin/wttr.in#json-ou
 with [Wego's ansi arts](https://github.com/schachmat/wego).
 
 <p align="center">
-  <img src="#TODO#gh-light-mode-only">
-  <img src="#TODO#gh-dark-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188382367-eb23747e-033e-492e-a697-2b3122b9db50.png#gh-light-mode-only">
+  <img src="https://user-images.githubusercontent.com/43980777/188382370-cea50a4d-e417-4a1f-a54e-fff22ed04dc1.png#gh-dark-mode-only">
 </p>
 
 > **Note** <br>
