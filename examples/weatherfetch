@@ -7,15 +7,15 @@ main_color=6
 data=$(curl -fsLS "https://wttr.in/$*?format=j1")
 
 location=$(curl -fsLS "https://wttr.in/$*?format=%l")
-description=$(echo "${data}" | jq --raw-output '.current_condition[0].weatherDesc[0].value')
-humidity=$(echo "${data}" | jq --raw-output '.current_condition[0].humidity')
-temperature=$(echo "${data}" | jq --raw-output '.current_condition[0].temp_C')
-temperature_feels=$(echo "${data}" | jq --raw-output '.current_condition[0].FeelsLikeC')
-wind_speed=$(echo "${data}" | jq --raw-output '.current_condition[0].windspeedKmph')
-precipitation=$(echo "${data}" | jq --raw-output '.current_condition[0].precipMM')
-pressure=$(echo "${data}" | jq --raw-output '.current_condition[0].pressure')
+description=$(echo "${data}" | jq --raw-output .weather[0].hourly[7].weatherDesc[0].value)
+humidity=$(echo "${data}" | jq --raw-output .weather[0].hourly[7].humidity)
+temperature=$(echo "${data}" | jq --raw-output .weather[0].hourly[7].tempC)
+temperature_feels=$(echo "${data}" | jq --raw-output .weather[0].hourly[7].FeelsLikeC)
+wind_speed=$(echo "${data}" | jq --raw-output .weather[0].hourly[7].windspeedKmph)
+precipitation=$(echo "${data}" | jq --raw-output .weather[0].hourly[7].precipMM)
+pressure=$(echo "${data}" | jq --raw-output .weather[0].hourly[7].pressure)
 
-case "$(echo "${data}" | jq --raw-output '.current_condition[0].winddir16Point')" in
+case "$(echo "${data}" | jq --raw-output .weather[0].hourly[7].winddir16Point)" in
 	N)   wind_direction='↓' ;;
 	NNE) wind_direction='↓' ;;
 	NE)  wind_direction='↙' ;;
@@ -158,7 +158,7 @@ print_test() {
 	[ "$(printf '%s' "${no_color}" | wc --lines)" -gt $(( terminal_height - prompt_height )) ] && return 1
 	[ "$(printf '%s' "${no_color}" | wc --max-line-length)" -gt "${terminal_width}" ] && return 1
 
-	gum style --align center --width="${terminal_width}" "$(gum style --border normal "${1}")" ''
+	gum style --align center --width="${terminal_width}" "${1}" ''
 	printf '%b' "[A"
 
 	exit 0
