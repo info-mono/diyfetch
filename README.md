@@ -132,6 +132,7 @@ and [Pokemon colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts)
 ## 💌 Credits
 
 Special thanks to:
+- [**Neofetch Themes**](https://github.com/Chick2D/neofetch-themes) by [Chick Chan](https://github.com/Chick2D)
 - [**Neofetch**](https://github.com/dylanaraps/neofetch) by [Dylan](https://github.com/dylanaraps)
 - [**Pfetch**](https://github.com/dylanaraps/pfetch) also by [Dylan](https://github.com/dylanaraps)
 - [**Ufetch**](https://gitlab.com/jschx/ufetch) by [Jschx](https://gitlab.com/jschx)
