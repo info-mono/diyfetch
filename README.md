@@ -14,6 +14,11 @@
 
 ## 🚀 Setup
 
+### 🧾 Dependencies
+
+- [POSIX compliance shell (`sh`, `bash`, `zsh`, ...)](https://wikipedia.org/wiki/Unix_shell)
+- [Gum](https://github.com/charmbracelet/gum) <sup>([installation guide](https://github.com/charmbracelet/gum#installation))</sup>
+
 ### 📥 Download
 
 Download the [`diyfetch`](https://github.com/info-mono/diyfetch/blob/main/diyfetch) file:
