@@ -2,10 +2,6 @@
   <img src="https://user-images.githubusercontent.com/43980777/188279024-8669d85b-4df9-4e48-bec8-969c42a12456.png#gh-light-mode-only">
   <img src="https://user-images.githubusercontent.com/43980777/188278675-7adca8da-83d5-4e9c-b53e-fdb337a9da11.png#gh-dark-mode-only">
 </p>
-<p align="center">
-  <a href="https://github.com/info-mono/diyfetch/blob/main/LICENSE"><img src="https://img.shields.io/github/license/info-mono/diyfetch?labelColor=383838&color=585858&style=for-the-badge" alt="License: GPL-3.0"></a>
-  <a href="https://gist.github.com/NNBnh/9ef453aba3efce26046e0d3119dab5a7#development-completed"><img src="https://img.shields.io/badge/development-completed-%23585858.svg?labelColor=383838&style=for-the-badge&logoColor=FFFFFF" alt="Development completed"></a>
-</p>
 
 ## 💡 About
 
@@ -144,12 +140,12 @@ Special thanks to:
 - [**Pure sh bible**](https://github.com/dylanaraps/pure-sh-bible) also by [Dylan](https://github.com/dylanaraps)
 - [**ShellCheck**](https://www.shellcheck.net) also by [Vidar Holen](https://github.com/koalaman)
 
-<br><br><br><br>
+<p align="right"><a href="https://gist.github.com/NNBnh/ad4816f847f4c6ada376cf36e6e70299" title="Easter egg">🥚</a></p>
 
----
-
-> <h1 align="center">Made with ❤️ by <a href="https://github.com/info-mono"><code>@info-mono</code></a></h1>
->
-> <p align="center"><a href="https://www.buymeacoffee.com/nnbnh"><img src="https://img.shields.io/badge/buy_me_a_coffee%20-%23F7CA88.svg?logo=buy-me-a-coffee&logoColor=333333&style=for-the-badge" alt="Buy Me a Coffee"></a></p>
->
-> <p align="right"><a href="https://gist.github.com/NNBnh/ad4816f847f4c6ada376cf36e6e70299" title="Easter egg">🥚</a></p>
+<a href="https://nnb.codeberg.page">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&section=footer&color=0284C7&fontColor=F0F9FF&height=128&desc=Made%20with%20%26lt;3%20by%20NNB&descAlignY=80"
+    alt="Made with <3 by NNB"
+  />
+</a>
